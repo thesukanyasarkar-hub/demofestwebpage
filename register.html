@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration IIMB Fest </title>
+
+    <a href="home.html">Home</a>
+        <a href="events.html">Events</a>
+</head>
+
+<body>
+   
+<h1> Registration form for IIMB fest</h1>
+<form action="Register">
+    <lable for="Name">Enter Your Name:</lable>
+    <input type="text" name="Name" id=" Name"required minlength="3" maxlength="10">
+    <br><br>
+
+    <lable for="email">Enter your email:</lable>
+    <input  type="email" name="email" id="email" required>
+    <br><br>
+
+
+    <lable for="t shirt size">Select your t shirt size:</lable>
+     <select name="t shirt size" id="t shirt size">
+        <option value="38"> 38</option>
+        <option value="40"> 40</option>
+        <option value="42"> 42</option>
+         <option value="44"> 44</option>
+         <option value="46"> 46</option>
+    </select>
+
+    <br><br>
+    
+    <input type="checkbox" name="terms" id="checkbox1" required>
+    <lable for="checkbox1">Do you agree agree to all terms and conditions:</lable>
+
+<br><br>
+    <input type="radio" name="attendee type" id="alumni" value="alumni" required>
+    <lable for="alumni"> Alumni:</lable>
+
+    <input type="radio" name="attendee type" id="student" value="students"  required>
+    <lable for="student">Student</lable>
+
+  <br><br>
+       <button type="submit">Register</button>
+</form>
+
+
+</body>
+</html>
